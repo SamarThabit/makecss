@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title><%- title %></title>
+	<title><%- system_title %></title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!--    Load: Styles -->
 	<!--(if target dev)><!-->
@@ -21,9 +21,6 @@
 	<!--<!(endif)-->
 </head>
 <body>
-<!--    Begin: Your Content -->
-<h1><%- title %></h1>
-<!--    End: Your Content -->
 
 <!--    Load: Scripts -->
 <!--(if target dev)><!-->

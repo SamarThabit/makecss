@@ -37,6 +37,7 @@ module.exports = {
 	scripts_custom:				'scripts-custom.js',
 	scripts_vendors:			'scripts-vendors.js',
 	scripts_modernizr:			'modernizr.js',
+	scripts_global:				'global.js',
 
 	/*=============================================================================*\
 	    STYLES

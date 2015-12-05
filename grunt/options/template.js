@@ -3,7 +3,7 @@ module.exports = function (grunt, data) {
 		htmlDev: {
 			options: {
 				data: {
-					'title': '<%= _SYSTEM.name %>',
+					'system_title': '<%= _SYSTEM.name %>',
 					'styles_vendors': '../<%= _PATH.pub_styles %>/<%= _FILE.styles_vendors %>',
 					'styles_fonts_google': '../<%= _PATH.pub_styles %>/<%= _FILE.styles_fonts_google %>',
 					'styles_fonts_embed': '../<%= _PATH.pub_styles %>/<%= _FILE.styles_fonts_embed %>',
