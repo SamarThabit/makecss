@@ -1,6 +1,6 @@
 # MakeCSS
 
-by CloudCart Team, version: 1.0.3
+by CloudCart Team, version: 2.0.0
 
 ## Възможности на системата
 
