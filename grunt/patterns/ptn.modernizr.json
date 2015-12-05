@@ -1,0 +1,29 @@
+{
+	"classPrefix": "",
+	"options": [
+		"domPrefixes",
+		"load",
+		"prefixes",
+		"setClasses"
+	],
+	"feature-detects": [
+		"a/download",
+		"css/backdropfilter",
+		"css/backgroundblendmode",
+		"css/backgroundcliptext",
+		"css/borderimage",
+		"css/columns",
+		"css/displayrunin",
+		"css/filters",
+		"css/flexwrap",
+		"css/hyphens",
+		"css/invalid",
+		"css/mask",
+		"css/objectfit",
+		"css/positionsticky",
+		"css/remunit",
+		"css/scrollbars",
+		"css/supports",
+		"touchevents"
+	]
+}

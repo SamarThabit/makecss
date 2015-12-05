@@ -1,0 +1,29 @@
+/*=============================================================================*\
+    MIXINS
+\*=============================================================================*/
+
+.clearfix() {
+	&:after {
+		display: table;
+		content: '';
+		clear: both;
+	}
+}
+.text-hidden() {
+	text-indent: -5000px;
+	overflow: hidden;
+}
+.text-truncate() {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.momentum-scrolling() {
+	overflow: auto;
+	-webkit-overflow-scrolling: touch;
+}
+.vertically-centered(@position: relative) {
+	top: 50%;
+	transform: translateY(-50%);
+	position: @position;
+}
