@@ -24,9 +24,7 @@ module.exports = {
 			"bootstrap": "*",
 			"fontawesome": "*",
 			"jquery": "*",
-			"respond": "*",
-			"OwlCarouselBower": "*",
-			"slick.js": "*"
+			"OwlCarouselBower": "*"
 		},
 		styles: [
 			'<%= _PATH.src_vendors %>/bootstrap/less/bootstrap.less',
@@ -37,7 +35,6 @@ module.exports = {
 		scripts: [
 			'<%= _PATH.src_vendors %>/jquery/dist/jquery.js',
 			'<%= _PATH.src_vendors %>/bootstrap/dist/js/bootstrap.js',
-			'<%= _PATH.src_vendors %>/respond/dest/respond.src.js',
 			'<%= _PATH.src_vendors %>/OwlCarouselBower/owl-carousel/owl.carousel.js'
 		]
 	}

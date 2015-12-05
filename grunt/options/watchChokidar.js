@@ -16,7 +16,8 @@ module.exports = function (grunt, data) {
 				'less:vendorsRTL',
 				'concat:vendors',
 				'googlefonts',
-				'embedfont'
+				'embedfont',
+				'open'
 			]
 		},
 		styles: {

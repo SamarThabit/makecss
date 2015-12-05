@@ -10,7 +10,8 @@ module.exports = function (grunt, data) {
 		vendors: {
 			options: {
 				plugins: [less_autoprefix, less_inline_urls, less_ltr],
-				dumpLineNumbers: 'comments'
+				dumpLineNumbers: 'comments',
+				ieCompat: false
 			},
 			files: {
 				'<%= _PATH.pub_styles %>/<%= _FILE.styles_vendors %>': data.SETUP.vendors.styles
@@ -19,7 +20,8 @@ module.exports = function (grunt, data) {
 		vendorsRTL: {
 			options: {
 				plugins: [less_autoprefix, less_inline_urls, less_rtl],
-				dumpLineNumbers: 'comments'
+				dumpLineNumbers: 'comments',
+				ieCompat: false
 			},
 			files: {
 				'<%= _PATH.pub_styles %>/<%= _FILE.styles_vendors_rtl %>': data.SETUP.vendors.styles

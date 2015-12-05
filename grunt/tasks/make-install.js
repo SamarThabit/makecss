@@ -10,8 +10,6 @@ module.exports = function (grunt) {
         'sprite',
         'svg_sprite',
         'copy:images',
-		'copy:fontsBootstrap',
-		'copy:fontsAwesome',
         'concat:vendors',
         'concat:custom',
 		'template:htmlDev',
