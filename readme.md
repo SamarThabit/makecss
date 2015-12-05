@@ -267,17 +267,8 @@ templates/						: За HTML, PHP, TPL или друг тип темплейти
 
 ## Changelog
 
-#### v1.0.3
-- Added: Less Plugin RTL
-- Removed: Grunt-FlipCSS2
-
-#### v1.0.2
-- Added: Retina sprites
-- Removed: RTL folder
-
-#### v1.0.1
-- Added: HTML beautifier 
-- Improved: RTL maker
+#### v2.0.0
+- New file structure
 
 #### v1.0.0
 - Initial version
