@@ -149,7 +149,7 @@ npm install
 grunt make-install
 ```
 
-В края на инсталацията и при коректно конфигуриран *assets/setup/config.js* в браузъра ви трябва да се визуализира индекс файлът на вашия проект.
+В края на инсталацията и при коректно конфигуриран *setup/setup.js* в браузъра ви трябва да се визуализира индекс файлът на вашия проект.
 
 ## Команди
 
@@ -234,7 +234,6 @@ templates/						: За HTML, PHP, TPL или друг тип темплейти
 - [Grunt-Concat-CSS]
 - [Grunt-Contrib-Clean]
 - [Grunt-Contrib-Concat]
-- [Grunt-Contrib-Connect]
 - [Grunt-Contrib-Copy]
 - [Grunt-Contrib-CSSlint]
 - [Grunt-Contrib-CSSmin]
@@ -251,6 +250,7 @@ templates/						: За HTML, PHP, TPL или друг тип темплейти
 - [Grunt-JSONgenerator]
 - [Grunt-Modernizr-Builder]
 - [Grunt-Newer]
+- [Grunt-Open]
 - [Grunt-Prettify]
 - [Grunt-Shell-Spawn]
 - [Grunt-Spritesmith]
@@ -285,7 +285,6 @@ templates/						: За HTML, PHP, TPL или друг тип темплейти
 [Grunt-Concat-CSS]: <https://www.npmjs.com/package/grunt-concat-css>
 [Grunt-Contrib-Clean]: <https://www.npmjs.com/package/grunt-contrib-clean>
 [Grunt-Contrib-Concat]: <https://github.com/gruntjs/grunt-contrib-concat>
-[Grunt-Contrib-Connect]: <https://github.com/gruntjs/grunt-contrib-connect>
 [Grunt-Contrib-Copy]: <https://github.com/gruntjs/grunt-contrib-copy>
 [Grunt-Contrib-CSSlint]: <https://github.com/gruntjs/grunt-contrib-csslint>
 [Grunt-Contrib-CSSmin]: <https://www.npmjs.com/package/grunt-contrib-cssmin>
@@ -302,6 +301,7 @@ templates/						: За HTML, PHP, TPL или друг тип темплейти
 [Grunt-JSONgenerator]: <https://www.npmjs.com/package/grunt-json-generator>
 [Grunt-Modernizr-Builder]: <https://www.npmjs.com/package/grunt-modernizr-builder> 
 [Grunt-Newer]: <https://www.npmjs.com/package/grunt-newer>
+[Grunt-Open]: <https://github.com/jsoverson/grunt-open>
 [Grunt-Prettify]: <https://www.npmjs.com/package/grunt-prettify>
 [Grunt-Shell-Spawn]: <https://github.com/cri5ti/grunt-shell-spawn>
 [Grunt-Spritesmith]: <https://github.com/Ensighten/grunt-spritesmith>
