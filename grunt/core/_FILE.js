@@ -85,6 +85,6 @@ module.exports = {
 		CONFIG
 	\*=============================================================================*/
 
-	config_grunt:				'grunt.js'
+	config:				'config.js'
 
 };

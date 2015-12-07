@@ -48,6 +48,6 @@ module.exports = {
 		CONFIG
 	\*=============================================================================*/
 
-	config:						dir.config
+	setup:						dir.setup
 
 };

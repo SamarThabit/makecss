@@ -6,7 +6,6 @@ module.exports = {
 
 	assets:						'assets',
 	css:						'css',
-	config:						'config',
 	embed:						'embed',
 	fonts:						'fonts',
 	gif:						'gif',
@@ -23,6 +22,7 @@ module.exports = {
 	private:					'private',
 	public:						'public',
 	scripts:					'scripts',
+	setup:						'setup',
 	sprite:						'sprite',
 	styles:						'styles',
 	svg:						'svg',

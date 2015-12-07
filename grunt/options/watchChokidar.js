@@ -5,7 +5,7 @@ module.exports = function (grunt, data) {
 			livereload: true
 		},
 		setups: {
-			files: ['<%= _PATH.config %>/<%= _FILE.config_grunt %>'],
+			files: ['<%= _PATH.setup %>/<%= _FILE.config %>'],
 			tasks: [
 				'json_generator:bowerrc',
 				'json_generator:bower',
