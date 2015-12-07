@@ -14,7 +14,7 @@ module.exports = function(grunt) {
 		],
 		// Load user setups
 		data: {
-			SETUP: require('./setup/setup')
+			SETUP: require('./config/grunt')
 		},
 		// Load tasks
 		jitGrunt: {
