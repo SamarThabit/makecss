@@ -1,6 +1,5 @@
 /.idea
 /node_modules
-/assets/public
 /assets/private/vendors
 .bowerrc
 bower.json
